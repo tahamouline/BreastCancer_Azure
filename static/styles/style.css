@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-image:url(v2.jpeg);
+  background-position:center;
+  background-size:cover;
+  font-family:sans-serif;
+  margin-top:40px;
+}
+
+.regform{
+  width:850px;
+  background: radial-gradient(#EA80B0,#ffbfc3);
+  color:#FFFFFF;
+  text-align:center;
+  border-radius:15px 15px 0px 0px;
+  margin-left: 250px;
+  border: 5px solid #ffffff;
+}
+
+.row{
+  background-color: (0,0,0,0.5);
+  width:800px;
+  margin:auto;
+}
+form{
+  width:850px;
+  background:radial-gradient(#FFFFFF,#ffbfc3, transparent);
+  color:#FFFFFF;
+  text-align:center;
+  margin-left: -274px;
+  border: 5px solid #ffffff;
+  border-radius:15px 15px 15px 15px;
+
+}
+
+#label{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.label{
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 125px;
+  color:white;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.textarea{
+  position: relative;
+  width:300px;
+  height:10px
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  background: radial-gradient(#ffffff,#ffbfc3, transparent);
+}
+
+.submit{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin-left: -300px;
+  margin-top:100px;
+
+
+}
+
+.button{
+  position: relative;
+  text-align: left;
+  width: 250px;
+  padding:40px;
+  font-size: 20px;
+  background: radial-gradient(#ffffff,#ffbfc3, transparent);
+  font-family: poppins;
+  font-weight:400;
+  border: 5px solid #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1.5s;
+}
+
+.button:hover{
+  box-shadow: 0 5px 50px 0 #ffffff inset, 0 5px 50px 0 #ffffff,
+              0 5px 50px 0 #ffffff inset, 0 5px 50px 0 #ffffff;
+}
+
+.output{
+  margin-top: 250px;
+  margin-left: -300px;
+  position: relative;
+  width:700px;
+  height:50px;
+  line-height: 40px;
+  border-radius: 15px 15px 15px 15px;
+  padding: 0 22px;
+  font-size: 16px;
+  background: radial-gradient(#ffffff,#ffbfc3, transparent);
+  display: block;
+  border: 5px solid #ffffff;
+}
